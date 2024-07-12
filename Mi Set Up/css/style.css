@@ -1,0 +1,449 @@
+.roboto-thin {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.roboto-light {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.roboto-regular {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.roboto-medium {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.roboto-bold {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.roboto-black {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+
+.roboto-thin-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.roboto-light-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.roboto-regular-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.roboto-medium-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.roboto-bold-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+.roboto-black-italic {
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+}
+
+/*************************//*************************/
+/*************************//*************************/
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    box-sizing: border-box;
+    min-height: 100vh;
+    font-family: calibri;
+
+    background-color: #d5d5d5;
+}
+
+header {
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 100%;
+    z-index: 1000;
+}
+
+
+.Banner1{
+    border: solid 0px green;
+    display: flex;
+}
+
+.Banner1 img{
+    width: 100px;
+}
+
+.Banner1 h1{
+    margin: auto;
+
+    font-family: 'roboto-bold';
+}
+
+.BannerNav nav{
+    display: flex;
+    gap: 35px; 
+    justify-content: center; 
+    font-size: 20px;
+}
+
+.EnlaceAOtraPagina{
+    color: white;
+
+    font-family: 'roboto-thin-italic';
+
+    text-decoration: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    border: solid 0px yellow;
+    flex-grow: 1;
+    align-items: center;
+    margin-top: 115px; 
+}
+
+
+.Imagenes_Set_Up{
+    display: flex;
+
+    border: solid 12px red;
+
+    border-radius: 20px;
+
+    padding: 20px;
+
+    gap: 15px;
+}
+
+.Imagenes_Set_Up img{
+    width: 400px;
+}
+
+.ComponentesdelPC{
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 15px;
+
+    text-align: center;
+
+    border: solid 0px pink;
+}
+
+.TamañoEnTablenComponentesDelPC{
+    display: flex;
+
+    border: solid 0px pink;
+}
+
+
+div[class*="ComponentesDelPC_"]{
+    display: flex;
+
+    border: solid 0px red;
+
+    gap: 25px;
+
+    justify-content: center;
+}
+
+.TamañoEnTablenComponentesDelPC{
+    display: flex;
+    gap: 15px;
+}
+
+.Procesador, .PlacaBase, .TarjetaGráfica, .MemoriaRAM, .DiscoduroSSD, .Refrigeraciónlíquida, .Fuentedealimentación, .Torre, .Mouse, .Keyboard, .Cascos, .Microfono{
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    padding: 10px;
+
+    border: solid 4px green;
+}
+
+.Procesador img, .PlacaBase img, .TarjetaGráfica img, .MemoriaRAM img, .DiscoduroSSD img, .Refrigeraciónlíquida img, .Fuentedealimentación img, .Torre img, .Mouse img, .Keyboard img, .Cascos img, .Microfono img{
+    width: 175px;
+    height: 175px;
+}
+
+.Procesador p, .PlacaBase p, .TarjetaGráfica p, .MemoriaRAM p, .DiscoduroSSD p, .Refrigeraciónlíquida p, .Fuentedealimentación p, .Torre p{
+    font-size: 22px;
+}
+
+.Monitores{
+    display: flex;
+    gap: 15px;
+
+    text-align: center;
+}
+
+div[class*="monitores"]{
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    gap: 15px;
+
+    border: solid 4px green;
+}
+
+div[class*="monitores"] img{
+    width: 250px;
+}
+
+button{
+    background-color: greenyellow;
+    
+    border-radius: 25px;
+
+    padding: 10px;
+}
+
+.Boton{
+
+    color: black;
+
+    font-family: 'roboto-medium';
+
+    text-decoration: none;
+}
+
+.Perifericos{
+    display: flex;
+
+    gap: 15px;
+}
+
+div[class*='Perifericos_']{
+
+    display: flex;
+
+    gap: 15px;
+}
+
+.TarjetaGráfica button:hover{
+    cursor: not-allowed;
+}
+
+.TarjetaGráfica button:hover a{
+    cursor: not-allowed;
+}
+
+.Microfono button:hover{
+    cursor: not-allowed;
+}
+
+.Microfono button:hover a{
+    cursor: not-allowed;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+footer h1{
+    text-align: center;
+
+    font-family: 'roboto-bold';
+}
+
+div[class*="LosPatrocinadores"]{
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 15px;
+}
+
+div[class*="LosPatrocinadores"] img{
+    border: solid 0px white;
+
+    width: 100px;
+}
+
+label:hover{
+    text-decoration: underline;
+
+    cursor: pointer;
+}
+
+button:hover{
+    text-decoration: none;
+
+    cursor: pointer;
+
+    background-color: red;
+}
+
+h1:hover, h2:hover, h3:hover, p:hover {
+    cursor: default;
+}
+
+/**************TAMAÑO TABLET*******************/
+@media (max-width: 1000px){
+    .Banner1 img{
+        width: 75px;
+        height: 75px;
+    }
+
+    h1{
+        font-size: 26px;
+    }
+    
+    #fa-gamepad {
+        font-size: 5em;
+    }
+
+    .BannerNav nav{
+        font-size: 17px;
+    }
+
+    .Imagenes_Set_Up img{
+        width: 300px;
+    }
+
+    .TamañoEnTablenComponentesDelPC{
+        flex-direction: column;
+    }
+
+    .Procesador img, .PlacaBase img, .TarjetaGráfica img, .MemoriaRAM img, .DiscoduroSSD img, .Refrigeraciónlíquida img, .Fuentedealimentación img, .Torre img{
+        width: 125px;
+        height: 125px;
+    }
+    
+    .Procesador p, .PlacaBase p, .TarjetaGráfica p, .MemoriaRAM p, .DiscoduroSSD p, .Refrigeraciónlíquida p, .Fuentedealimentación p, .Torre p{
+        font-size: 17px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+
+    h2{
+        font-size: 20px;
+    } 
+
+    div[class*='Perifericos_']{
+
+        flex-direction: column;
+    
+        gap: 15px;
+    }
+
+    div[class*="LosPatrocinadores"] img{
+        width: 75px;
+    }
+}
+
+/**************TAMAÑO MOVIL*******************/
+@media screen and (max-width: 780px){
+    .Banner1 img{
+        width: 50px;
+        height: 50px;
+    }
+
+    h1{
+        font-size: 23px;
+    }
+    
+    #fa-gamepad {
+        font-size: 3em;
+    }
+
+    .BannerNav nav{
+        font-size: 14px;
+    }
+
+    main{
+        margin-top: 80px;
+    }
+
+    .Imagenes_Set_Up{
+        flex-direction: column;
+    }
+
+    .TamañoEnTablenComponentesDelPC{
+        flex-direction: column;
+    }
+
+    div[class*="ComponentesDelPC_"]{
+        flex-direction: column;
+    }
+
+    .Procesador img, .PlacaBase img, .TarjetaGráfica img, .MemoriaRAM img, .DiscoduroSSD img, .Refrigeraciónlíquida img, .Fuentedealimentación img, .Torre img{
+        width: 75px;
+        height: 75px;
+    }
+    
+    .Procesador p, .PlacaBase p, .TarjetaGráfica p, .MemoriaRAM p, .DiscoduroSSD p, .Refrigeraciónlíquida p, .Fuentedealimentación p, .Torre p{
+        font-size: 14px;
+    }
+
+    .Monitores{
+        flex-direction: column;
+    }
+
+    p{
+        font-size: 13px;
+    }
+
+    h2{
+        font-size: 17px;
+    } 
+
+    .EnlacesDeCadaPagina{
+        flex-direction: column;
+    }
+
+    div[class*="LosPatrocinadores"] img{
+        width: 50px;
+    }
+}
